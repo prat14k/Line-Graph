@@ -16,17 +16,17 @@ struct LineDash {
 
 
 struct GraphDivider {
-
-    var chartLabel: GraphLabel
+    
+    var graphLabel: GraphLabel
     var lineDash: LineDash?
-
+    
     let lineWidth: CGFloat
     let lineColor: UIColor
-
-    init(chartLabel: GraphLabel, lineWidth: CGFloat = 1, lineColor: UIColor = UIColor.black) {
-        self.chartLabel = chartLabel
+    
+    init(graphLabel: GraphLabel, lineWidth: CGFloat = 1, lineColor: UIColor = UIColor.white) {
+        self.graphLabel = graphLabel
         self.lineWidth = lineWidth
         self.lineColor = lineColor
     }
+    
 }
-

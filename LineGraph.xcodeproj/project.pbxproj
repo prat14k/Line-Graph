@@ -15,6 +15,7 @@
 		AB0194A12122FE2A00638228 /* ChartDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB01949C2122FE2A00638228 /* ChartDivider.swift */; };
 		AB0194A32123004600638228 /* DividerLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194A22123004600638228 /* DividerLine.swift */; };
 		AB0194A52123009C00638228 /* GraphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194A42123009C00638228 /* GraphLabel.swift */; };
+		AB239D2E21590B30003B970C /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB239D2D21590B30003B970C /* Arc.swift */; };
 		ABBC55E12122DEFC0071E494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC55E02122DEFC0071E494 /* AppDelegate.swift */; };
 		ABBC55E32122DEFC0071E494 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBC55E22122DEFC0071E494 /* ViewController.swift */; };
 		ABBC55E62122DEFC0071E494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBC55E42122DEFC0071E494 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		AB01949C2122FE2A00638228 /* ChartDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDivider.swift; sourceTree = "<group>"; };
 		AB0194A22123004600638228 /* DividerLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerLine.swift; sourceTree = "<group>"; };
 		AB0194A42123009C00638228 /* GraphLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphLabel.swift; sourceTree = "<group>"; };
+		AB239D2D21590B30003B970C /* Arc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
 		ABBC55DD2122DEFC0071E494 /* LineGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBC55E02122DEFC0071E494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABBC55E22122DEFC0071E494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				ABBC55EC2122DEFE0071E494 /* Info.plist */,
 				AB0194952122FDB900638228 /* LineGraphView.swift */,
 				AB0194A22123004600638228 /* DividerLine.swift */,
+				AB239D2D21590B30003B970C /* Arc.swift */,
 				ABF908EB21256F01005A2EB1 /* GraphPoint.swift */,
 				AB0194A42123009C00638228 /* GraphLabel.swift */,
 			);
@@ -172,6 +175,7 @@
 			files = (
 				ABBC55E32122DEFC0071E494 /* ViewController.swift in Sources */,
 				AB01949E2122FE2A00638228 /* ChartConcentricCircle.swift in Sources */,
+				AB239D2E21590B30003B970C /* Arc.swift in Sources */,
 				AB0194A32123004600638228 /* DividerLine.swift in Sources */,
 				AB01949F2122FE2A00638228 /* Chart.swift in Sources */,
 				AB0194A02122FE2A00638228 /* ChartSlice.swift in Sources */,

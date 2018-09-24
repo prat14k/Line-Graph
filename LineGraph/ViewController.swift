@@ -31,7 +31,7 @@ extension ViewController: LineGraphDataSource, LineGraphDelegate {
     }
     
     func divider(forGraph graph: LineGraph, atIndex index: Int, forAxis axis: Axis) -> GraphDivider {
-        return GraphDivider(chartLabel: GraphLabel(text: "\(index)", color: .black))
+        return GraphDivider(graphLabel: GraphLabel(text: "\(index)", color: .black))
     }
     
     func numberOfPlottingPoints(forGraph graph: LineGraph) -> Int {
