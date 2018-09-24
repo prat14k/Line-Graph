@@ -8,11 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB0194962122FDB900638228 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194952122FDB900638228 /* LineGraphView.swift */; };
-		AB01949D2122FE2A00638228 /* ChartLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194982122FE2A00638228 /* ChartLabel.swift */; };
-		AB01949E2122FE2A00638228 /* ChartConcentricCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194992122FE2A00638228 /* ChartConcentricCircle.swift */; };
-		AB01949F2122FE2A00638228 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB01949A2122FE2A00638228 /* Chart.swift */; };
-		AB0194A02122FE2A00638228 /* ChartSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB01949B2122FE2A00638228 /* ChartSlice.swift */; };
-		AB0194A12122FE2A00638228 /* ChartDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB01949C2122FE2A00638228 /* ChartDivider.swift */; };
 		AB0194A32123004600638228 /* DividerLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194A22123004600638228 /* DividerLine.swift */; };
 		AB0194A52123009C00638228 /* GraphLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0194A42123009C00638228 /* GraphLabel.swift */; };
 		AB239D2E21590B30003B970C /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB239D2D21590B30003B970C /* Arc.swift */; };
@@ -26,11 +21,6 @@
 
 /* Begin PBXFileReference section */
 		AB0194952122FDB900638228 /* LineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
-		AB0194982122FE2A00638228 /* ChartLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartLabel.swift; sourceTree = "<group>"; };
-		AB0194992122FE2A00638228 /* ChartConcentricCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartConcentricCircle.swift; sourceTree = "<group>"; };
-		AB01949A2122FE2A00638228 /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
-		AB01949B2122FE2A00638228 /* ChartSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSlice.swift; sourceTree = "<group>"; };
-		AB01949C2122FE2A00638228 /* ChartDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDivider.swift; sourceTree = "<group>"; };
 		AB0194A22123004600638228 /* DividerLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerLine.swift; sourceTree = "<group>"; };
 		AB0194A42123009C00638228 /* GraphLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphLabel.swift; sourceTree = "<group>"; };
 		AB239D2D21590B30003B970C /* Arc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
@@ -55,18 +45,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB0194972122FE2A00638228 /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				AB0194982122FE2A00638228 /* ChartLabel.swift */,
-				AB0194992122FE2A00638228 /* ChartConcentricCircle.swift */,
-				AB01949A2122FE2A00638228 /* Chart.swift */,
-				AB01949B2122FE2A00638228 /* ChartSlice.swift */,
-				AB01949C2122FE2A00638228 /* ChartDivider.swift */,
-			);
-			path = Chart;
-			sourceTree = "<group>";
-		};
 		ABBC55D42122DEFC0071E494 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +64,6 @@
 		ABBC55DF2122DEFC0071E494 /* LineGraph */ = {
 			isa = PBXGroup;
 			children = (
-				AB0194972122FE2A00638228 /* Chart */,
 				ABBC55E02122DEFC0071E494 /* AppDelegate.swift */,
 				ABBC55E22122DEFC0071E494 /* ViewController.swift */,
 				ABBC55E42122DEFC0071E494 /* Main.storyboard */,
@@ -174,16 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBC55E32122DEFC0071E494 /* ViewController.swift in Sources */,
-				AB01949E2122FE2A00638228 /* ChartConcentricCircle.swift in Sources */,
 				AB239D2E21590B30003B970C /* Arc.swift in Sources */,
 				AB0194A32123004600638228 /* DividerLine.swift in Sources */,
-				AB01949F2122FE2A00638228 /* Chart.swift in Sources */,
-				AB0194A02122FE2A00638228 /* ChartSlice.swift in Sources */,
-				AB01949D2122FE2A00638228 /* ChartLabel.swift in Sources */,
 				ABBC55E12122DEFC0071E494 /* AppDelegate.swift in Sources */,
 				AB0194A52123009C00638228 /* GraphLabel.swift in Sources */,
 				ABF908EC21256F01005A2EB1 /* GraphPoint.swift in Sources */,
-				AB0194A12122FE2A00638228 /* ChartDivider.swift in Sources */,
 				AB0194962122FDB900638228 /* LineGraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
