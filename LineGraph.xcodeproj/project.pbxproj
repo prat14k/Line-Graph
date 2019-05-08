@@ -64,19 +64,27 @@
 		ABBC55DF2122DEFC0071E494 /* LineGraph */ = {
 			isa = PBXGroup;
 			children = (
+				ABE0F69B225F830100AAE397 /* Line Graph */,
 				ABBC55E02122DEFC0071E494 /* AppDelegate.swift */,
 				ABBC55E22122DEFC0071E494 /* ViewController.swift */,
 				ABBC55E42122DEFC0071E494 /* Main.storyboard */,
 				ABBC55E72122DEFE0071E494 /* Assets.xcassets */,
 				ABBC55E92122DEFE0071E494 /* LaunchScreen.storyboard */,
 				ABBC55EC2122DEFE0071E494 /* Info.plist */,
+			);
+			path = LineGraph;
+			sourceTree = "<group>";
+		};
+		ABE0F69B225F830100AAE397 /* Line Graph */ = {
+			isa = PBXGroup;
+			children = (
 				AB0194952122FDB900638228 /* LineGraphView.swift */,
 				AB0194A22123004600638228 /* DividerLine.swift */,
 				AB239D2D21590B30003B970C /* Arc.swift */,
 				ABF908EB21256F01005A2EB1 /* GraphPoint.swift */,
 				AB0194A42123009C00638228 /* GraphLabel.swift */,
 			);
-			path = LineGraph;
+			path = "Line Graph";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
